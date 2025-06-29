@@ -256,3 +256,5 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+    print("Бот остановлен.")
+    logger.info("Бот остановлен.")
